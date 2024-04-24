@@ -8,3 +8,8 @@
 ```js
 javascript:(function () { var script = document.createElement('script'); script.src="WebGameKeyboard.js?config=$[config]"; document.body.append(script);})();
 ```
+
+json格式例示：
+```json
+[{"content":"测试","code":13,"type":"key"}]
+```
